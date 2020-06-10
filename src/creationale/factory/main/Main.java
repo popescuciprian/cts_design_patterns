@@ -17,7 +17,5 @@ public class Main {
         abstractDocumentFactory = new HTML_Factory(); //Sau ce factory vrea clientul
         InterfataDocument document2 = abstractDocumentFactory.getDocument();
         System.out.println(document2.getTip());
-
-
     }
 }
