@@ -22,7 +22,7 @@
 * Observer - Metoda de comunicare intre un OBSERVABIL (buton) si un OBSERVER (om, eveniment la click, etc).
 * Chain of Responsability -Un fel de observer DAR Observatorii comunica intre ei, ca intr-un lant.
 * Command - Rezolva actiunile care pot fi executate mai tarziu (ex: cainele care aduce mingea inapoi: nu stii exact cand)
-* Memento
+* Memento - Sa poti salva starea obiectului in timp, si uneori chiar sa te intorci
 #
 ## Cuvinte cheie:
 * Lazy instantiation - obiect creat atunci cand este necesar
