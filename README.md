@@ -19,10 +19,14 @@
 ### Comportamentale - gestiune actiuni
 * Strategy - Rezolva problema lipsei pointerilor la functii in Java. Ii dai obiectului, un alt obiect care sa rezolve problema. (ex: calculator, si operatie)
 * State - Un fel de Strategy, dar autonoma: Nu mai alegem noi operatia, ci obiectul alege singur. Masina de stari.
+* Observer - Metoda de comunicare intre un OBSERVABIL (buton) si un OBSERVER (om, eveniment la click, etc).
 #
 ## Cuvinte cheie:
 * Lazy instantiation - obiect creat atunci cand este necesar
 * Enumerare cu un singur simbol - that's a Singleton
+* Observer:
+    * PUSH - Observabilul trimite detaliul observatorilor (Psst! I was cliked!)
+    * PULL - Observatorul cere datele cand are nevoie de ele (u clicked? u clicked? u clicked? u clicked?...s.a.)
 * State vs Strategy:
     * Strategy - Cineva decide si nu are control (Calculator personal)
     * State - Obiectul este independent, el alege (Semafor, independent si afiseaza in functie de state); PS: se porneste cu o stare initiala, cerinta care nu e obligatorie la strategy!
