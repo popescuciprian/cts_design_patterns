@@ -22,10 +22,9 @@
 * Observer - Metoda de comunicare intre un OBSERVABIL (buton) si un OBSERVER (om, eveniment la click, etc).
 * Chain of Responsability -Un fel de observer DAR Observatorii comunica intre ei, ca intr-un lant.
 * Command - Rezolva actiunile care pot fi executate mai tarziu (ex: cainele care aduce mingea inapoi: nu stii exact cand)
-* Memento - Sa poti salva starea obiectului in timp, si uneori chiar sa te intorci. Fie cazul unui editor text, ca notepad++
-    * Memento -> linia de text scrisa de tine
-    * Originator -> fisierul text, originea textului
-    * CareTaker -> Aplicatia notepadd++ care iti permite sa dai ctrl-z
+* Memento - Sa poti salva starea obiectului in timp, si uneori chiar sa te intorci. Originatorul isi salveaza state-ul intr-un Memento. Tot el este responsabil de creearea lui sau de icnarcarea lui. Memento-ul este si el bagat intr-o lista, pt versionare
+* Template - (Insert meme: <Template> I am a Design Patter! <All other design patterns> Am I a joke to you?) Interfata template de lucru. Rezolva problema cand niste clase trebuie sa indeplineasca exact acelasi lucru, dupa un anumit template
+
 #
 ## Cuvinte cheie:
 * Lazy instantiation - obiect creat atunci cand este necesar
