@@ -19,3 +19,11 @@
 ### Cuvinte cheie:
 * Lazy instantiation - obiect creat atunci cand este necesar
 * Enumerare cu un singur simbol - that's a Singleton
+* Adapter vs Decorator vs Facade:
+    * Adaper -> adaptez o instanta sau o clasa, la un anumit framework
+    * Decorator -> adaug o metoda/atribut NOU la un anumit obiect (JavaScript wise)
+    * Facade -> simplific un framework, prin definirea unor metode facade
+* Flyweight vs Decorator vs Prototype: Exemplu joc cu masini de curse:
+    * Prototype -> incarc pe baza clonelor, mai rapid, modelele 3D ale masinilor (memorie = dimensiune * nr_masini)
+    * Decorator -> folosint clonele de mai sus, modific la runtime, culoarea masinilor (memorie = dimensiune * nr_masini)
+    * Flyweight -> incarc un singur model, pe care il clonez shallow si adaug clonelor shallow modificari (memorie = dminesiune + modificari*nr_masini)
