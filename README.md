@@ -15,10 +15,14 @@
 * Facade - Simplifica un framework, printr-un layer intermediar
 * Composite - Rezolva problema ierarhiilor/arborescente 
 * Flyweight - Rezolva problema a prea multe clone. Ex: editor text, literele ca obiecte.
+* Proxy - Interconectare API-uri, unei interfata intre doua framework-uri, validari acces, adaugare functionalitate la accesare obiect -> "Cand delegi executia unei metode? Proxy valideaza. Fara el, executa direct"
 ### Comportamentale - gestiune actiuni
 ### Cuvinte cheie:
 * Lazy instantiation - obiect creat atunci cand este necesar
 * Enumerare cu un singur simbol - that's a Singleton
+* Decorator vs Proxy:
+    * Decorator -> modifici starea/modul in care un obiect se comporta
+    * Proxy -> controlezi accesul la obiect, intrebi proxy-> proxy.metoda ==ok? obiect.metoda.
 * Adapter vs Decorator vs Facade:
     * Adaper -> adaptez o instanta sau o clasa, la un anumit framework
     * Decorator -> adaug o metoda/atribut NOU la un anumit obiect (JavaScript wise)
