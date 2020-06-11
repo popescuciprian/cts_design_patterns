@@ -20,10 +20,15 @@
 * Strategy - Rezolva problema lipsei pointerilor la functii in Java. Ii dai obiectului, un alt obiect care sa rezolve problema. (ex: calculator, si operatie)
 * State - Un fel de Strategy, dar autonoma: Nu mai alegem noi operatia, ci obiectul alege singur. Masina de stari.
 * Observer - Metoda de comunicare intre un OBSERVABIL (buton) si un OBSERVER (om, eveniment la click, etc).
+* Chain of Responsability -Un fel de observer DAR Observatorii comunica intre ei, ca intr-un lant.
+
 #
 ## Cuvinte cheie:
 * Lazy instantiation - obiect creat atunci cand este necesar
 * Enumerare cu un singur simbol - that's a Singleton
+* Observer vs Chain:
+    * Observer - Fiecare observator trateaza evenimentul si lucreaza de capul lui, independent (ex: Subscribe youtube: notificare mail, notificare push, motificare desktop etc etc)
+    * Chain - Observatorii lucreaza in lant (ex: tratarea unui pacient in functie de boala-> farmacist<asistent<medic<doctor<chirurg<Dumnezeu)
 * Observer:
     * PUSH - Observabilul trimite detaliul observatorilor (Psst! I was cliked!)
     * PULL - Observatorul cere datele cand are nevoie de ele (u clicked? u clicked? u clicked? u clicked?...s.a.)
