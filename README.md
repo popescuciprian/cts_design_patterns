@@ -13,6 +13,7 @@
     * NOTE: ai doua posibilitati, fie adaptezi un obiect deja existent, la un framework, fie adaptezi clasa sa creeze obiecte adaptate la framework
 * Decorator - NOT Adapter - decorare a starii sau functionalitatii unor obiecte. Adaptorul ADAPTEAZA, Decoratorul MODIFICA starea (atributele), fara sa modifici clasa.
 * Facade - Simplifica un framework, printr-un layer intermediar
+* Composite - Rezolva problema ierarhiilor/arborescente - 
 ### Comportamentale - gestiune actiuni
 ### Cuvinte cheie:
 * Lazy instantiation - obiect creat atunci cand este necesar
