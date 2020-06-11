@@ -23,6 +23,9 @@
 ## Cuvinte cheie:
 * Lazy instantiation - obiect creat atunci cand este necesar
 * Enumerare cu un singur simbol - that's a Singleton
+* State vs Strategy:
+    * Strategy - Cineva decide si nu are control (Calculator personal)
+    * State - Obiectul este independent, el alege (Semafor, independent si afiseaza in functie de state); PS: se porneste cu o stare initiala, cerinta care nu e obligatorie la strategy!
 * Decorator vs Proxy:
     * Decorator -> modifici starea/modul in care un obiect se comporta
     * Proxy -> controlezi accesul la obiect, intrebi proxy-> proxy.metoda ==ok? obiect.metoda.
