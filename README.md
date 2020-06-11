@@ -17,7 +17,10 @@
 * Flyweight - Rezolva problema a prea multe clone. Ex: editor text, literele ca obiecte.
 * Proxy - Interconectare API-uri, unei interfata intre doua framework-uri, validari acces, adaugare functionalitate la accesare obiect -> "Cand delegi executia unei metode? Proxy valideaza. Fara el, executa direct"
 ### Comportamentale - gestiune actiuni
-### Cuvinte cheie:
+* Strategy - Rezolva problema lipsei pointerilor la functii in Java. Ii dai obiectului, un alt obiect care sa rezolve problema. (ex: calculator, si operatie)
+* State - Un fel de Strategy, dar autonoma: Nu mai alegem noi operatia, ci obiectul alege singur. Masina de stari.
+#
+## Cuvinte cheie:
 * Lazy instantiation - obiect creat atunci cand este necesar
 * Enumerare cu un singur simbol - that's a Singleton
 * Decorator vs Proxy:
